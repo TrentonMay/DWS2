@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>SkateWorld</title>
+		<link href= "css/form.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	</head>
+	<body>
+		<!--------------Nav---------------->
+		<nav>
+			<h2>SkateWorld</h2>
+	        <ul>
+	            <li><a href="index.html">Home</a></li>
+	            <li><a href="mailto:TrentonMay@fullsail.edu">Contact Us</a></li>
+	            <li><a href="#">Parks</a></li>
+	        </ul>
+    	</nav><!-------------- End Nav---------------->
+    	<!--------------Wrapper to contain all the main content---------------->
+    	<div id="wrapper"> 
+	    		<!--------------Form---------------->
+			<form>
+				<!--------------title for the form---------------->
+				<div id="formHead">
+					<h3 id="header-style" class="center-text">Sign up for SkateWorld</h3>
+				</div><!--------------End form title---------------->
+				
+				<ol>
+					<li><!--------------Username field---------------->
+						<label for="namefield" class="block">Username</label>
+						<input id="namefield" type="text" name="name" class="common-field" required></br>
+					</li>
+					<li><!--------------Password field---------------->
+						<label for="passwordfield" class="block">Password</label>
+						<input type="password" name="password" class="common-field" required></br>
+					</li>
+					<li><!--------------Email field---------------->
+						<label for="emailfield" class="block">Email</label>
+						<input type="email" name="email" class="common-field" required></br>
+					</li>
+					<li><!--------------Phone # field---------------->
+						<label for="telefield" class="block">Phone # (not required)</label>
+						<input type="tel" name="tele" class="common-field">
+					</li>
+				</ol>
+				<input type="submit" id="submit">
+			</form><!--------------End form---------------->
+		</div><!--------------End wrapper---------------->
+	</body>
+	</html>

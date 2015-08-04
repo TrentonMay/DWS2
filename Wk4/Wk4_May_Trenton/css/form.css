@@ -1,0 +1,212 @@
+/*--Adding a web font to the page for use*/
+@font-face {
+	font-family: 'Poiret One';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Poiret One'), local('PoiretOne-Regular'), url(http://fonts.gstatic.com/s/poiretone/v4/cKr_e199f0xMkxMkRbEJXwsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+	unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+	font-family: 'Poiret One';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Poiret One'), local('PoiretOne-Regular'), url(http://fonts.gstatic.com/s/poiretone/v4/3Annd_XP-99FcGbOpm6fVAsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+	font-family: 'Poiret One';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Poiret One'), local('PoiretOne-Regular'), url(http://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8QzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/*--------Body----------*/
+body{
+	font-size: 1em;
+	font-family: helvetica, arial, sans-serif;
+	color:#545257; /*changes color of the whole text*/
+	margin-top: 0;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #beffba 40%, #7fb558 77%, #327a64 97%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(40%,#beffba), color-stop(77%,#7fb558), color-stop(97%,#327a64)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#beffba 40%,#7fb558 77%,#327a64 97%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#beffba 40%,#7fb558 77%,#327a64 97%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#beffba 40%,#7fb558 77%,#327a64 97%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#beffba 40%,#7fb558 77%,#327a64 97%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#327a64',GradientType=0 ); /* IE6-9 */
+
+}
+ol{
+	list-style:none;
+}
+#wrapper{
+	margin: 7.708333333333% auto;
+}
+/*------------Form--------------*/
+form{
+	box-shadow: .4em .5em .3em #999;
+	margin: 2% auto;
+	width: 41.666666666667%;
+	background: #cedbe9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #cedbe9 0%, #aac5de 25%, #6199c7 40%, #3a84c3 47%, #419ad6 54%, #4bb8f0 62%, #3a8bc2 87%, #26558b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cedbe9), color-stop(25%,#aac5de), color-stop(40%,#6199c7), color-stop(47%,#3a84c3), color-stop(54%,#419ad6), color-stop(62%,#4bb8f0), color-stop(87%,#3a8bc2), color-stop(100%,#26558b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #cedbe9 0%,#aac5de 25%,#6199c7 40%,#3a84c3 47%,#419ad6 54%,#4bb8f0 62%,#3a8bc2 87%,#26558b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #cedbe9 0%,#aac5de 25%,#6199c7 40%,#3a84c3 47%,#419ad6 54%,#4bb8f0 62%,#3a8bc2 87%,#26558b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #cedbe9 0%,#aac5de 25%,#6199c7 40%,#3a84c3 47%,#419ad6 54%,#4bb8f0 62%,#3a8bc2 87%,#26558b 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #cedbe9 0%,#aac5de 25%,#6199c7 40%,#3a84c3 47%,#419ad6 54%,#4bb8f0 62%,#3a8bc2 87%,#26558b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#26558b',GradientType=0 ); /* IE6-9 */
+
+}
+
+.rounded{
+	-webkit-border-radius: 5%;
+	-moz-border-radius: 5%;
+}
+
+#formHead{
+	margin:0 auto;
+	width: 93.75%;
+}
+
+/*---------------Text areas--------------*/
+.common-field{
+	display: block;
+	border: .1em solid red;
+	width: 81.25%;
+	height: 2em;
+}
+/*----------------Header----------------*/
+#form-head{
+	margin: 0 auto;
+	width: 100%;
+}
+#header-style{
+	padding-top: 3%;
+	font-family:"Poiret One", Arial, verdana, sans-serif;
+	font-size: 2em;
+	color:#000000;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	transition: all 2s ease;
+}
+/*--------------Easy Style Classes----------*/
+.center-text{
+	text-align: center;
+}
+.block{
+	display: block;
+	font-size: 1em;
+	padding: 2%
+}
+/*------------------Submit Button--------------------*/
+#submit{
+	margin: 0 7.708333333333%;
+	width: 13.020833333333%;
+	height: 10em;
+	display: inline-block;
+	margin-bottom: 7.708333333333%;
+}
+/*----------------Nav Styles-------------*/
+nav{
+	width: 100%;
+	height: 4em;
+	margin:0 auto;
+	background-color: black;
+	position:fixed;
+	top:0;
+}
+
+nav li{
+	font-family: Arial, Helvetica, sans-serif;
+	display: inline-block;
+	margin-right: 5.729166666667%;
+	margin-top: 1.5625%;
+	font-size: 1.2em;
+}
+nav ul{
+	list-style: none;
+	float: right;
+	width: 52.08333%;
+}
+nav > h2{
+	float: left;
+	margin-left: 10.416666666667%;
+	font-family: "Poiret One", Arial, verdana, sans-serif;
+	font-size: 2em;
+	color: white;
+}
+/*---------------Link Styles--------------*/
+ a{
+	text-decoration: none;
+	font-size: 1em;
+}
+a:link{
+	color: #99FF99;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:active{
+	color: #00ffff;
+}
+a:visited{
+	color: #FF9966;
+}
+/*--------------------Transitions---------------------*/
+#header-style:hover{
+	-webkit-transform: rotateY(360deg);
+	-moz-transform: rotateY(360deg);
+	-o-transform: rotateY(360deg);
+	transform: rotateY(360deg);
+}
+input:focus{
+	-webkit-transition: background-color .50s ease;
+	-moz-transition: background-color .50s ease;
+	-o-transition: background-color .50s ease;
+	transition: background-color .50s ease;
+	background-color: #66FF66;
+}
+/*---------------------Media Queries--------------------*/
+@media screen and (max-width:960px){
+	#wrapper{
+		margin: 18.229166666667% auto;
+	}
+	form{
+		width: 57.291666666667%;
+	}
+	nav li{
+		font-size: 1em;
+		margin-right: 2.604166666667%;
+	}
+	nav > h2{
+		margin-left: 5.208333333333%;
+	}
+}
+@media screen and (max-width:640px){
+	#wrapper{
+		margin: 20.833333333333% auto;
+	}
+	#submit{
+		width: 20.833333333333%;
+	}
+	form{
+		width: 62.5%;
+	}
+	nav ul{
+		width: 52.083333333333%;
+	}
+	nav li{
+		font-size: .8em;
+	}
+	nav > h2{
+		font-size: 1.5em;
+	}
+}
+@media screen and (max-width:500px){
+	form{
+		width: 100%;
+	}
+}

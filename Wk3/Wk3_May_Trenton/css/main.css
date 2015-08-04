@@ -1,0 +1,105 @@
+
+/*------Custom Font------*/
+@font-face {
+	font-family: 'Poiret One';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Poiret One'), local('PoiretOne-Regular'), url(http://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8QzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/*--------Body----------*/
+body{
+	font-size: 1em;
+	font-family: helvetica, arial, sans-serif;
+	color:#545257; /*changes color of the whole text*/
+	margin-top: 0;
+}
+ol{
+	list-style:none;
+}
+
+
+/*------------Form--------------*/
+
+li:nth-child(1n + 1){
+	font-family:"Courier New", Courier, monospace;
+}
+/*----------Input fields--------*/
+
+label.block{
+	display: block;
+	font-size: 1em;
+	padding: 2%
+}
+
+/*--------Comment Section------*/
+textarea{
+	width: 100%;
+	height: 10em;
+	-webkit-transition: all .80s ease;
+	-moz-transition: all .80s ease;
+	-o-transition: all .80s ease;
+}
+#comment-field{
+	position: relative;
+	margin: 0 19%;
+	top: 3em;
+	padding-top: 5%;
+	padding-bottom: 7%;
+	display: block;
+}
+#comment-field label:first-child{
+	margin-top: 2%;
+	text-align: left;
+	position: absolute;
+		top: -.1em;
+}
+#btn-submit{
+	margin-bottom: 10%;
+}
+/*-------Easy positioning classes----*/
+.pos-left{
+	float:left;
+}
+.pos-right {
+	float: right;
+}
+.center-text{
+	text-align: center;
+}
+
+/*--------Check Box fields-------*/
+.checkbx{
+	position: relative;
+	left: -8%;
+}
+.checkbx-space{
+	margin-top: 7%;
+	margin-bottom: 10%;
+}
+/*----Dropdown list style----*/
+.drop-list{
+	margin: 5% auto;
+}
+.drop-option{
+	width: 50%;
+}
+
+/*-------Form Header-------*/
+#header-style{
+	padding-top: 3%;
+	font-family:"Poiret One", Arial, verdana, sans-serif;
+	font-size: 2em;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	transition: all 2s ease;
+}
+#formHead{
+	margin:0 auto;
+	width: 90%;
+}
+
+
+
+
